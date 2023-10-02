@@ -1,7 +1,7 @@
 # Python Developer. Basic <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="pytnon" width="34"/>
 Данный репозиторий содержит выполненные домашние работы по курсу [Python Developer Basic](https://otus.ru/lessons/python-basic/) школы [Otus](https://otus.ru/).
 
-## Список домашних работ
+### Список домашних работ
 - [Home work №1. Публикация репозитория и работа с функциями](#home-work-1-публикация-репозитория-и-работа-с-функциями)
 
 ## Home work №1. Публикация репозитория и работа с функциями
