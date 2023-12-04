@@ -9,12 +9,11 @@ from engine import Engine
 """
 
 
-@dataclass
+# @dataclass
 class Car(Vehicle):
-    engine: Engine = None
+    def __init__(self, weight=1000, fuel=50, fuel_consumption=8):
+        super().__init__(weight, fuel, fuel_consumption)
+        self.engine = None
 
     def set_engine(self, engine: Engine):
-        self.engine = Engine
-
-
-myCar = Car()
+        self.engine = engine
