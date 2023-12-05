@@ -7,15 +7,15 @@
 
 
 class LowFuelError(Exception):
-    def __init__(self, message: "Мало топлива"):
+    def __init__(self, message: str = "Мало топлива"):
         super().__init__(message)
 
 
 class NotEnoughFuel(Exception):
-    def __init__(self, message: "Недостаточно топлива"):
+    def __init__(self, message: str = "Недостаточно топлива"):
         super().__init__(message)
 
 
 class CargoOverload(Exception):
-    def __init__(self, message: "Перегруз"):
+    def __init__(self, message: str = "Перегруз"):
         super().__init__(message)
